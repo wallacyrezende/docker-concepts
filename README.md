@@ -3,8 +3,10 @@ Este projeto foi desenvolvido com o intuito de manipular imagens docker, utiliza
 
 ## Comando executados durante a live
 
-- docker psdocker image lsdocker rm <image id>
-- docker rmi <image id> -f
+- docker ps
+- docker image ls
+- docker rm \<imageID>
+- docker rmi \<imageID> -f
 - docker run nginx:1.19.10-alpine
 - docker run -d nginx:1.19.10-alpine
 - docker logs \<contianerID>
